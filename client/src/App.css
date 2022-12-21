@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #999;
+}
+
+.auth-pages{
+  text-align: center;
+  background-color: #767676;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+.auth-pages > h1{
+  color: #ddd;
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+
+.auth-pages > div{
+  margin: 0 auto;
+  padding: 10px 4vw;
+  width: fit-content;
+  background-color: #eee;
+}
+
+#message-box{
+  width:90%;
+  max-width: 500px;
+  height:50vh;
+  margin:0 auto;
+  border:1px solid black;
+  overflow:auto;
+}
+.msg-form{
+  width:90%;
+  max-width: 500px;
+  margin: 5px auto;
+}
+
+.message{
+  padding: 10px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.message-out{
+  text-align: left;
+  background-color: lightgreen;
+  margin: 5px 10px;
+}
+
+.message-in{
+  text-align: right;
+  margin: 5px 10px 0px auto;
+  background-color: lightblue;
+}
+
+.error{
+  background-color: rgba(111,111,111,0.5);
+  color: darkred;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.collapse{
+  margin-left: 40vw;
+}
+.navbar-toggler{
+  font-size: 3vw;
+  background-color: #ddd;
+}
+.banner{
+  background-color: rgb(88, 88, 88);
+  padding: 20px 10px;
+  color: #ddd
+}
+.banner a{
+  color: white;
+  text-decoration: none;
+}
+.banner p:hover {
+  cursor: pointer;
+}
