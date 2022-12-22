@@ -12,7 +12,7 @@ app.use(cookieParser())
 
 app.use(cors({
     credentials:true,
-    origin: "*",
+    origin: ["http://localhost:3000","http://10.0.0.47:3000","http://54.146.220.50.3000"],
 }))
 
 require("./config/mongoose.config")
@@ -23,7 +23,7 @@ const server = app.listen(8000, () => console.log("Running..."))
 
 const io = socket(server, {
     cors: {
-        origin: "*",
+        origin: ["http://localhost:3000","http://10.0.0.47:3000","http://54.146.220.50.3000"],
         methods: ["GET","POST","PUT","DELETE"],
         allowedHeaders: ["*"],
         credentials: true
